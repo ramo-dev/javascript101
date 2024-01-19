@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: grey;
+    padding: 5%;
+}
+
+.container{
+    margin:auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    background: white;
+    box-shadow: 1px 2px 20px gray;
+    border-radius:5px ;
+    gap:20px;
+    font-size: 0.9rem;
+    flex: 1;
+}
+.container .heading{
+    font-weight: 600;
+    align-self: center;
+}
+.container .prompt{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.container input{
+    width: 100%;
+    border:2px rgb(173, 173, 173) double;
+    padding:5px;
+    margin-top:5px;
+    border-radius: 5px;
+}
+.container input:active,
+.container input:focus {
+    border-color: blue;
+}
+
+.container button{
+    background-color: rgb(1, 182, 1);
+    color:white;
+    border:none;
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.container button:hover{
+    background-color:rgb(1, 156, 1);
+
+}
+.container .total{
+    font-size: 20px;
+}
