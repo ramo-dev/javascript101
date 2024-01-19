@@ -55,6 +55,10 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
 }
+.container .calculate.disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
 .container button:hover{
     background-color:rgb(1, 156, 1);
 
