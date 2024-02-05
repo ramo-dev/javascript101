@@ -28,7 +28,7 @@ body{
     display: flex;
     display: flex;
     gap:10px;
-    justify-content: center;
+    text-align: center;
 }
 .quote-preview{
     margin:20px auto;
@@ -111,7 +111,7 @@ body{
     line-height: 1.75rem;
     font-weight: 600;
     --tw-text-opacity: 1;
-    color: rgba(55, 65, 81, 1);
+    color: #488fec;
 
   }
   
@@ -123,6 +123,11 @@ body{
     display: flex;
     text-align: center;
     font-size: 1rem;
+  }
+  .highlight{
+    background-color:#488fec9c;
+    font-size: 1rem;
+    padding:0px 5px
   }
    @media only screen and (max-width:600px) {
 
