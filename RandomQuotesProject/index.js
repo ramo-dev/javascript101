@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
           throw new Error('Failed to fetch data!')
        }
        else{
-          console.log('Success: ', response.statusText)
+          console.log('Success: ', response.status)
           return response.json()
        }  
       }).then(data=>{
@@ -62,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(response =>  response.json())
     .then(data =>{
       Gallery = data;
-      console.log(Gallery)
     });
   }
 
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
     randomize.addEventListener('click', ()=>{
       let randomPic = Math.floor(Math.random() *  Gallery.length);
       let random = Gallery[randomPic]
-      console.log(random.url)
       body.style.background = `url('${random.download_url}')`;
   })
 
