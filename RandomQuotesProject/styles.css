@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 500px;
+    background: inherit;
+    padding:30px 10%;
+    margin: 5% auto;
+    min-height:65vh;
+    border:1px solid grey;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 8px;
+    opacity: 0.9;
+    display: flex;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.quote-preview{
+    margin:20px auto;
+
+}
+.btn {
+    padding: 0.51em 2em;
+    margin:2% 36% auto;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #131313;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #488fec;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+    justify-self:center ;
+   }
+   
+   .btn:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #ff6700;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+   }
+   
+   .btn:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+   }
+   
+   .btn:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+   }
+   
+   .btn:active {
+    transform: scale(0.9);
+   }
+
+   .card {
+    background-color: rgba(243, 244, 246, 1);
+    padding: 2rem;
+    max-width: 520px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.068);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  /* .header .image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    background-color: royalblue;
+  }
+   */
+  .name {
+    margin-top: 0.25rem;
+    font-size: 1.425rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgba(55, 65, 81, 1);
+
+  }
+  
+  .message {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+  }
+   @media only screen and (max-width:600px) {
+
+    .container{
+        padding:30px 10%;
+        margin:5% 10%;
+        min-height:80vh;
+        border:1px solid grey;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 8px;
+        opacity: 0.9;
+
+    }
+    .btn {
+        padding: 0.5em 1em;
+        margin:1% 30% auto;
+       }
+       
+    
+   }

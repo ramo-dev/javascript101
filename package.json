@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "pexels": "^1.4.0",
+    "stream-json": "^1.8.0"
+  },
+  "name": "javascript101",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramo-dev/javascript101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramo-dev/javascript101/issues"
+  },
+  "homepage": "https://github.com/ramo-dev/javascript101#readme"
+}
