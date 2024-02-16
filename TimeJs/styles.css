@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(segment-digital-batt.ttf);
+  }
+
+body{
+    height: 100vh;
+    background: #060214;
+}
+
+.container{
+    width:100%;
+    min-height:100vh ;
+    background:inherit ;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+    color: rgb(155, 155, 141);
+}
+.container div{
+    font-size: 180px;
+}
+.container .dots{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container span{
+    background-color:rgb(155, 155, 141);
+    width:40px;
+    height: 40px;
+    margin-top: 20px;
+}
+small{
+    font-size: 40px;
+}
