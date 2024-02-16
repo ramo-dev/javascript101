@@ -8,23 +8,31 @@
 <title>Drag & Drop Js</title>
 </head>
 <body>
+
     <div class="container">
-        <div id="left">
-            <div class="list" draggable="true">
-            <img src="icon.png" alt="" draggable="false">List 1
+        <h1 class="title">write, drag and drop notes</h1>
+    <div class="notes">
+            <h1 class="new">New:</h1>
+            <div id="left">
+               
             </div>
-            <div class="list" draggable="true">
-            <img src="icon.png" alt="" draggable="false">List 2
-                </div>
-                <div class="list" draggable="true">
-                <img src="icon.png" alt="" draggable="false">List 3
-                    </div>
-                    <div class="list" draggable="true">
-                        <img src="icon.png" alt="" draggable="false">List 4
-                        </div>
+            <h1 class="done">Done:</h1>
+            <div id="right">
+            </div>
+           
         </div>
-        <div id="right">
+        <div class="options">
+            <input type="text" placeholder="enter text">
+            <button>Add Note</button>
         </div>
+        <section class="trash-container">
+            <span class="trash">
+                <span></span>
+                <i></i>
+            </span>
+        </section>
     </div>
+
+
 </body>
 </html>
