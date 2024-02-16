@@ -48,8 +48,12 @@ body{
     outline: 0;
     margin: 5px 0;
     border-radius: 5px;
+    border: none;
     cursor:pointer;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.container button:hover{
+    background: #383cb9;
 }
 .img-box{
     display: flex;
