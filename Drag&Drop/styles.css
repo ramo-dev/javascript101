@@ -43,6 +43,11 @@ body{
     display: flex;
     align-items: center;
     cursor: grab;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    padding: 1%;
 }
 .list img{
     width:10px;
