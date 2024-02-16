@@ -12,7 +12,7 @@ function addNote() {
     if (note !== '') {
         const card = createCard(note);
         leftBox.appendChild(card);
-        noteInput.value = ''; // Clear input field after adding note
+        noteInput.value = ''; 
     } else {
         alert('Please enter a non-empty note.');
     }
@@ -39,7 +39,7 @@ function handleDrop(e) {
     if (selected) {
         e.target.appendChild(selected);
     }
-    trashContainer.classList.remove('drag-over'); // Close the lid after dropping
+    trashContainer.classList.remove('drag-over');
 }
 
 function handleDragOver(e) {
