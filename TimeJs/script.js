@@ -8,7 +8,7 @@ function getTime() {
     const getMinutes = time.getMinutes();
     const getSeconds = time.getSeconds();
 
-    // Determine if its in AM or PM
+    // Determine if time is in AM or PM
     const amPM = getHour >= 12 ? 'PM' : 'AM';
 
     // Convert the time format from 24-hour to 12-hour format

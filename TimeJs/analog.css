@@ -1,0 +1,115 @@
+body{
+background-color: rgb(0, 15, 24);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    border:2px solid grey;
+    width: 80vh;
+    height: 80vh;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.clock h1{
+    position: absolute;
+    font-size: 3rem;
+    color: beige;
+}
+.clock .one{
+    right:41%;
+    top:5%
+}
+.clock .two{
+    right:35%;
+    top:15%
+}
+.clock .three{
+    right:33%;
+    top:33%
+}
+.clock .four{
+    right:35%;
+    top:50%
+}
+.clock .five{
+    right:41%;
+    top:62%
+}
+.clock .six{
+    top:68%
+}
+.clock .seven{
+    left:41%;
+    top:62%
+}
+.clock .eight{
+    left:35%;
+    top:50%
+}
+.clock .nine{
+    left:33%;
+    top:33%
+}
+.clock .ten{
+    left:35%;
+    top:15%
+}
+.clock .eleven{
+    left:41%;
+    top:5%
+}
+.clock .twelve{
+    top:0;
+}
+
+.hands{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.hands div{
+    position: absolute;
+    transform-origin: bottom center;
+}
+.hands .hour{
+    background-color: grey;
+    width: 10px;
+    height: 200px;
+    top:11%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    
+}
+.hands .minute{
+    background-color: crimson;
+    width: 6px;
+    height: 230px;
+    top:7%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+.hands .second{
+    background-color: lime;
+    width: 2px;
+    height: 240px;
+    top:5.5%;
+    transition: transform 0.5s ease-in-out;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+.hands .circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 50%;
+    top:40%
+}
