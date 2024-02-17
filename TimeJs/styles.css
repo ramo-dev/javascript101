@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: myFirstFont;
-    src: url(segment-digital-batt.ttf);
+    src: url(7-segment-classic.ttf);
   }
 
 body{
@@ -34,10 +34,11 @@ body{
 }
 .container span{
     background-color:rgb(155, 155, 141);
-    width:40px;
+    width:30px;
     height: 40px;
     margin-top: 20px;
+    border-radius: 30px;
 }
 small{
-    font-size: 40px;
+    font-size: 30px;
 }
