@@ -10,7 +10,7 @@ body{
     background-color: #262a2f;
 }
 .container{
-    width:400;
+    width:400px;
     position: absolute;
     padding:25px 35px ;
     top:50%;
@@ -65,4 +65,8 @@ body{
     margin: 3%;
     border: 1px solid grey;
     box-shadow: inherit;
+}
+@media screen and (max-width:800px){
+    .container{
+        width:600px;
 }
